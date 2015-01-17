@@ -1,0 +1,62 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="BandsinTown.SettingsPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+     xmlns:toolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="True">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--TitlePanel contains the name of the application and page title-->
+        <StackPanel Grid.Row="0" Margin="12,17,0,28">
+            <TextBlock Text="BANDS AROUND" Style="{StaticResource PhoneTextNormalStyle}"/>
+            <TextBlock Text="settings" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
+        </StackPanel>
+
+        <!--ContentPanel - place additional content here-->
+        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="3*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <toolkit:ToggleSwitch Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" x:Name="ToggleSwitch_location" Header="" IsChecked="true" Content="Location" Checked="switch_Checked_location" Unchecked="switch_Unchecked_location" SwitchForeground="#FF15B7C7"/>
+           
+            <toolkit:ToggleSwitch Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" x:Name="ToggleSwitch" Header="Date range - music events" IsChecked="true" Content="Next 30 days" Checked="switch_Checked" Unchecked="switch_Unchecked" SwitchForeground="#FF15B7C7"/>
+            <TextBlock Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" Text="Start date" FontSize="{StaticResource PhoneFontSizeMedium}" FontFamily="{StaticResource PhoneFontFamilyLight}" Padding="10,0,0,0" />
+
+            <toolkit:DatePicker x:Name="StartDate" Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2" Margin="0,0,0,0" ValueChanged="StartDate_ValueChanged"/>
+            <TextBlock Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="2" Text="End date" FontSize="{StaticResource PhoneFontSizeMedium}" FontFamily="{StaticResource PhoneFontFamilyLight}" Padding="10,0,0,0" />
+
+            <toolkit:DatePicker x:Name="EndDate" Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="2" Margin="0,0,0,0" ValueChanged="EndDate_ValueChanged"/>
+            <TextBlock Grid.Row="6" Grid.Column="0" Grid.ColumnSpan="2" Text="Distance" FontSize="{StaticResource PhoneFontSizeLarge}" FontFamily="{StaticResource PhoneFontFamilyLight}" Padding="10,0,0,10" />
+            <Slider x:Name="DistanceSlider" Grid.Row="7" Grid.Column="0" Maximum="50" SmallChange="1" Foreground="#FF15B7C7" Margin="0" Padding="0" ValueChanged="Distance_Value_Changed" />
+            <TextBlock Grid.Row="7" Grid.Column="1"  Text="{Binding Value, ElementName=DistanceSlider, StringFormat=\{0:#\,0\} Miles}" FontSize="{StaticResource PhoneFontSizeMedium}" FontFamily="{StaticResource PhoneFontFamilyLight}" Padding="20,11,0,0"/>
+        
+            </Grid>
+    </Grid>
+
+</phone:PhoneApplicationPage>
