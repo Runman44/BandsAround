@@ -32,6 +32,7 @@ namespace BandsAround
         {
             InitializeComponent();
             UpdateVersionString();
+            GoogleAnalytics.EasyTracker.GetTracker().SendView("AboutPage");
         }
 
         /// <summary>

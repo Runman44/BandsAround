@@ -13,5 +13,11 @@ namespace BandsinTown.Parser
         Task<ObservableCollection<EventSearch>> getEventFeed(Uri feed);
 
         Task<Event> getEvent(Uri feed);
+
+        Task<ObservableCollection<ArtistSearch>> getArtistFeed(Uri feed);
+
+        Task<Artist> getArtist(Uri feed);
+
+
     }
 }

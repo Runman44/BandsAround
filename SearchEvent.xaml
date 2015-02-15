@@ -18,58 +18,84 @@
 
     <!--LayoutRoot is the root grid where all page content is placed-->
     <Grid x:Name="LayoutRoot" Background="Transparent">
-        <Grid.RowDefinitions>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="*"/>
-        </Grid.RowDefinitions>
-
-        <!--TitlePanel contains the name of the application and page title-->
-        <StackPanel Grid.Row="0" Margin="12,17,0,18">
-            <TextBlock Text="BANDS AROUND" Style="{StaticResource PhoneTextNormalStyle}"/>
-            <TextBlock Text="search event" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
-        </StackPanel>
-
-
-        <!--ContentPanel - place additional content here-->
+        <phone:Pivot Title="Bands Around">
+            <!--Pivot item one-->
+            <phone:PivotItem Header="Events">
+               
         <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
-            <Grid.RowDefinitions>
-                <RowDefinition  Height="*" />
-                <RowDefinition  Height="Auto"/>
-                <RowDefinition  Height="6*"/>
-                <RowDefinition  Height="1.5*"/>
-            </Grid.RowDefinitions>
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="*" />
-                <ColumnDefinition Width="*" />
-                <ColumnDefinition Width="*" />
-                <ColumnDefinition Width="1.5*" />
+                    <Grid.RowDefinitions>
+                        <RowDefinition  Height="*" />
+                        <RowDefinition  Height="Auto"/>
+                        <RowDefinition  Height="6*"/>
+                        <RowDefinition  Height="1.5*"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="1.5*" />
 
-            </Grid.ColumnDefinitions>
+                    </Grid.ColumnDefinitions>
 
-            <toolkit:PhoneTextBox Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" Hint="Enter city name" x:Name="textbox_search" HorizontalAlignment="Left" Height="72" TextWrapping="Wrap" VerticalAlignment="Top" Width="336"/>
-            <Button Grid.Row="0" Grid.Column="4" Content="Search" HorizontalAlignment="Center"  VerticalAlignment="Top" RenderTransformOrigin="-0.403,-0.078" Click="Button_Click"/>
+                    <toolkit:PhoneTextBox Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" Hint="Enter city name" x:Name="textbox_search" HorizontalAlignment="Left" Height="72" TextWrapping="Wrap" VerticalAlignment="Top" Width="336"/>
+                    <Button Grid.Row="0" Grid.Column="4" Content="Search" HorizontalAlignment="Center"  VerticalAlignment="Top" RenderTransformOrigin="-0.403,-0.078" Click="Button_Click"/>
 
-            <ListBox Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="4" x:Name="searchEvents" 
+                    <ListBox Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="4" x:Name="searchEvents" 
 				Width="436" HorizontalAlignment="Left" HorizontalContentAlignment="Stretch"
 				  ItemsSource="{Binding}" SelectionChanged="searchEvents_SelectionChanged" Margin="10,0,0,0" >
-                <ListBox.ItemTemplate>
-                    <DataTemplate>
-                        <StackPanel>
-                            <TextBlock Style="{StaticResource PhoneTextLargeStyle}" Text="{Binding title}" Margin="2"  TextWrapping="Wrap" />
-                            <TextBlock Style="{StaticResource PhoneTextSmallStyle}" Text="{Binding}" Margin="2" Foreground="#FF15B7C7"  />
-                        </StackPanel>
-                    </DataTemplate>
-                </ListBox.ItemTemplate>
-            </ListBox>
+                        <ListBox.ItemTemplate>
+                            <DataTemplate>
+                                <StackPanel>
+                                    <TextBlock Style="{StaticResource PhoneTextLargeStyle}" Text="{Binding title}" Margin="2"  TextWrapping="Wrap" />
+                                    <TextBlock Style="{StaticResource PhoneTextSmallStyle}" Text="{Binding}" Margin="2" Foreground="#FF15B7C7"  />
+                                </StackPanel>
+                            </DataTemplate>
+                        </ListBox.ItemTemplate>
+                    </ListBox>
 
-            <TextBlock Grid.Row="1" Grid.Column="0"  HorizontalAlignment="Left" Margin="13,0,0,0"  TextWrapping="Wrap" Text="Sorting:" VerticalAlignment="Top" FontSize="24" Height="43" Width="88"/>
-            <HyperlinkButton Style="{StaticResource HyperlinkButtonStyle}" Grid.Row="1" Grid.Column="1"  Content="name" HorizontalAlignment="Left"  VerticalAlignment="Top" Click="Sorting_Name_Click" Foreground="Gray" Width="102" FontSize="24" HorizontalContentAlignment="Center" Height="43"/>
-            <HyperlinkButton Style="{StaticResource HyperlinkButtonStyle}" Grid.Row="1" Grid.Column="2" Content="date" HorizontalAlignment="Left"  VerticalAlignment="Top" Click="Sorting_Date_Click" Foreground="Gray" Width="101" HorizontalContentAlignment="Left" FontSize="24" Height="43"/>
-            <adduplex:AdControl  Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="4" x:Name="adDuplexAd" AppId="133519" IsTest="True" Margin="-27,11,-24,10"/>
-        </Grid>
+                    <TextBlock Grid.Row="1" Grid.Column="0"  HorizontalAlignment="Left" Margin="13,0,0,0"  TextWrapping="Wrap" Text="Sorting:" VerticalAlignment="Top" FontSize="24" Height="43" Width="88"/>
+                    <HyperlinkButton Style="{StaticResource HyperlinkButtonStyle}" Grid.Row="1" Grid.Column="1"  Content="name" HorizontalAlignment="Left"  VerticalAlignment="Top" Click="Sorting_Name_Click" Foreground="Gray" Width="102" FontSize="24" HorizontalContentAlignment="Center" Height="43"/>
+                    <HyperlinkButton Style="{StaticResource HyperlinkButtonStyle}" Grid.Row="1" Grid.Column="2" Content="date" HorizontalAlignment="Left"  VerticalAlignment="Top" Click="Sorting_Date_Click" Foreground="Gray" Width="101" HorizontalContentAlignment="Left" FontSize="24" Height="43"/>
+                    <adduplex:AdControl  Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="4" x:Name="adDuplexAd" AppId="133519" IsTest="False" Margin="-27,11,-24,10"/>
+                </Grid>
+            </phone:PivotItem>
 
-        
+            <!--Pivot item two-->
+            <phone:PivotItem Header="Artist">
+                <Grid x:Name="ContentPanel2" Grid.Row="1" Margin="12,0,12,0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition  Height="*" />
+                        <RowDefinition  Height="Auto"/>
+                        <RowDefinition  Height="6*"/>
+                        <RowDefinition  Height="1.5*"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="1.5*" />
 
+                    </Grid.ColumnDefinitions>
+
+                    <toolkit:PhoneTextBox Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" Hint="Enter artist name" x:Name="artist_search" HorizontalAlignment="Left" Height="72" TextWrapping="Wrap" VerticalAlignment="Top" Width="336"/>
+                    <Button x:Name="artist_search_button" Grid.Row="0" Grid.Column="4" Content="Search" HorizontalAlignment="Center"  VerticalAlignment="Top" RenderTransformOrigin="-0.403,-0.078" Click="Artist_Search_Click"/>
+
+                    <ListBox Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="4" x:Name="searchArtists" 
+				Width="422" HorizontalAlignment="Left" HorizontalContentAlignment="Stretch"
+				  ItemsSource="{Binding}" SelectionChanged="searchArtists_SelectionChanged" Margin="10,0,0,0" >
+                        <ListBox.ItemTemplate>
+                            <DataTemplate>
+                                <StackPanel>
+                                    <TextBlock Style="{StaticResource PhoneTextLargeStyle}" Text="{Binding name}" Margin="2"  TextWrapping="Wrap" />
+                                    <TextBlock Style="{StaticResource PhoneTextSmallStyle}" Text="{Binding bio}" Margin="2" Foreground="#FF15B7C7"  />
+                                </StackPanel>
+                            </DataTemplate>
+                        </ListBox.ItemTemplate>
+                    </ListBox>
+
+                </Grid>
+            </phone:PivotItem>
+        </phone:Pivot>
     </Grid>
 
 </phone:PhoneApplicationPage>

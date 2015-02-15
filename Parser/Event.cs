@@ -11,6 +11,14 @@ namespace BandsinTown.Parser
     [XmlRoot("event")]
     public class Event
     {
+        [XmlAttribute("id")]
+        public String idFormat
+        {
+            get { return id; }
+            set { id = string.IsNullOrEmpty(value) != true ? value : "unknown"; }
+        }
+        [XmlIgnore]
+        public String id { get; set; }
 
          [XmlElement("title")]
         public String titleFormat

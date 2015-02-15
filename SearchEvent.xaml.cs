@@ -34,6 +34,7 @@ namespace BandsAround
             _progressIndicator.IsIndeterminate = true;
             _progressIndicator.Text = "loading";
             SystemTray.SetProgressIndicator(this, _progressIndicator);
+            GoogleAnalytics.EasyTracker.GetTracker().SendView("SearchPage");
         }
 
         private async void Button_Click(object sender, RoutedEventArgs e)
@@ -60,6 +61,42 @@ namespace BandsAround
             {
                 MessageBox.Show("Something went wrong, please try again");
                 _progressIndicator.IsVisible = false;
+            }
+        }
+
+        private async void Artist_Search_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                String text_search = artist_search.Text;
+                if (text_search != null)
+                {
+                    _progressIndicator.IsVisible = true;
+                    ObservableCollection<ArtistSearch> list = null;
+                    //ObservableCollection<ArtistFeed> sortedList = null;
+
+                    list = await iParser.getArtistFeed(new Uri("http://api.eventful.com/rest/performers/search?&app_key=G79FxVMQbxjMTKMk&keywords=" + text_search));
+                   // sortedList = new ObservableCollection<ArtistFeed>(list));
+                    searchArtists.DataContext = list;
+                    _progressIndicator.IsVisible = false;
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Something went wrong, please try again");
+                _progressIndicator.IsVisible = false;
+            }
+        }
+
+        private void searchArtists_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            if (e.AddedItems.Count > 0)
+            {
+                var musicEvent = e.AddedItems[0] as ArtistSearch;
+                if (musicEvent != null)
+                {
+                    NavigationService.Navigate(new Uri("/ArtistPage.xaml?msg=" + musicEvent.id, UriKind.Relative));
+                }
             }
         }
 
@@ -95,8 +132,5 @@ namespace BandsAround
                 searchEvents.DataContext = sortedList;
             }
         }
-
-
-
     }
 }

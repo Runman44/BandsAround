@@ -17,7 +17,7 @@ namespace BandsinTown
         public SettingsPage()
         {
             InitializeComponent();
-
+            GoogleAnalytics.EasyTracker.GetTracker().SendView("SettingsPage");
             if (!Settings.GetValueOrDefault<Boolean>("location", true))
             {
                 ToggleSwitch_location.IsChecked = false;

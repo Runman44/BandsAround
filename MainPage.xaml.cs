@@ -64,7 +64,7 @@ namespace BandsAround
                 SystemTray.SetProgressIndicator(this, _progressIndicator);
                 this.InitializeMap(this.Map);
                 this.Loaded += MainPage_Loaded;
-                
+                GoogleAnalytics.EasyTracker.GetTracker().SendView("MainPage");
         }
 
         protected override void OnNavigatedTo(System.Windows.Navigation.NavigationEventArgs e)

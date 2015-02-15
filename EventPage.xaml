@@ -66,11 +66,12 @@
     <phone:PhoneApplicationPage.ApplicationBar>
         <shell:ApplicationBar IsVisible="True" IsMenuEnabled="True" Opacity="1" BackgroundColor="#FF15B7C7">
             <shell:ApplicationBarIconButton IconUri="/Assets/AppBar/globe.png" Text="info" Click="InfoClicked" />
-            <shell:ApplicationBarIconButton IconUri="/Assets/Calendar.png" Text="calendar" Click="CalendarClicked" />
-            <shell:ApplicationBarIconButton IconUri="/Assets/AppBar/audio.png" Text="Listen to" Click="MoreClicked" />
+            <shell:ApplicationBarIconButton IconUri="/Assets/AppBar/favorite.png" Text="follow" Click="FollowClicked" />
+            <shell:ApplicationBarIconButton IconUri="/Assets/AppBar/audio.png" Text="listen to" Click="MoreClicked" />
             <shell:ApplicationBarIconButton IconUri="/Assets/Share.png" Text="share" Click="SharedClicked" />
             <shell:ApplicationBar.MenuItems>
                 <shell:ApplicationBarMenuItem Text="Navigate to destination" Click="NavigateClicked"/>
+                <shell:ApplicationBarMenuItem Text="Add to calendar" Click="CalendarClicked"/>
             </shell:ApplicationBar.MenuItems>
         </shell:ApplicationBar>
 

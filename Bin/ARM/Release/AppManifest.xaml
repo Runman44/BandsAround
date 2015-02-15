@@ -10,6 +10,8 @@
     <AssemblyPart x:Name="Bands in Town" Source="Bands in Town.dll" />
     <AssemblyPart x:Name="AdDuplex.WindowsPhone" Source="AdDuplex.WindowsPhone.dll" />
     <AssemblyPart x:Name="GoogleAds" Source="GoogleAds.dll" />
+    <AssemblyPart x:Name="GoogleAnalytics.Core" Source="GoogleAnalytics.Core.dll" />
+    <AssemblyPart x:Name="GoogleAnalytics" Source="GoogleAnalytics.dll" />
     <AssemblyPart x:Name="Microsoft.Phone.Controls.Toolkit" Source="Microsoft.Phone.Controls.Toolkit.dll" />
     <AssemblyPart x:Name="Newtonsoft.Json" Source="Newtonsoft.Json.dll" />
     <AssemblyPart x:Name="Nokia.Music.Wp8" Source="Nokia.Music.Wp8.dll" />

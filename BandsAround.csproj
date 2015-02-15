@@ -99,6 +99,21 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ArtistPage.xaml.cs">
+      <DependentUpon>ArtistPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="FavoritePage.xaml.cs">
+      <DependentUpon>FavoritePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="FollowEventPage.xaml.cs">
+      <DependentUpon>FollowEventPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="GridPage.xaml.cs">
+      <DependentUpon>GridPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Parser\Artist.cs" />
+    <Compile Include="Parser\ArtistSearch.cs" />
+    <Compile Include="Parser\Artists.cs" />
     <Compile Include="Parser\EventSearch.cs" />
     <Compile Include="EventPage.xaml.cs">
       <DependentUpon>EventPage.xaml</DependentUpon>
@@ -127,6 +142,9 @@
     </Compile>
     <Compile Include="ThemeManager.cs" />
     <Compile Include="Utils.cs" />
+    <Compile Include="WallPage.xaml.cs">
+      <DependentUpon>WallPage.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">
@@ -136,7 +154,23 @@
     <Page Include="AboutPage.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="ArtistPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="EventPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="FavoritePage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="FollowEventPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="GridPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -152,8 +186,15 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="WallPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
+    <None Include="analytics.xsd">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="Images\Thumbs.db" />
     <None Include="packages.config" />
     <None Include="Properties\AppManifest.xml" />
@@ -165,7 +206,9 @@
     <Content Include="300-300.png" />
     <Content Include="358-173.png" />
     <Content Include="358-358.png" />
+    <Content Include="analytics.xml" />
     <Content Include="Assets\AlignmentGrid.png" />
+    <Content Include="Assets\AppBar\favorite.png" />
     <Content Include="Assets\AppBar\audio.png" />
     <Content Include="Assets\AppBar\car.png" />
     <Content Include="Assets\AppBar\feature.search.png" />
@@ -181,8 +224,15 @@
     <Content Include="Assets\Share.png" />
     <Content Include="Images\back.png" />
     <Content Include="Images\cross.png" />
+    <Content Include="Images\event.png" />
+    <Content Include="Images\favorite.png" />
+    <Content Include="Images\news.png" />
     <Content Include="Images\next.png" />
+    <Content Include="Images\pushpin.png" />
+    <Content Include="Images\questionmark.png" />
     <Content Include="Images\ref.png" />
+    <Content Include="Images\search.png" />
+    <Content Include="Images\settings.png" />
     <Content Include="Images\stop.png" />
     <Content Include="Toolkit.Content\ApplicationBar.Cancel.png" />
     <Content Include="Toolkit.Content\ApplicationBar.Check.png" />
@@ -219,6 +269,13 @@
     <Reference Include="GoogleAds">
       <HintPath>..\GoogleAds.dll</HintPath>
     </Reference>
+    <Reference Include="GoogleAnalytics">
+      <HintPath>packages\GoogleAnalyticsSDK.1.2.12\lib\windowsphone8\GoogleAnalytics.dll</HintPath>
+    </Reference>
+    <Reference Include="GoogleAnalytics.Core">
+      <HintPath>packages\GoogleAnalyticsSDK.1.2.12\lib\windowsphone8\GoogleAnalytics.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Phone.Controls, Version=8.0.0.0, Culture=neutral, PublicKeyToken=24eec0d8c86cda1e, processorArchitecture=MSIL" />
     <Reference Include="Microsoft.Phone.Controls.Toolkit, Version=8.0.1.0, Culture=neutral, PublicKeyToken=b772ad94eb9ca604, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>packages\WPtoolkit.4.2013.08.16\lib\wp8\Microsoft.Phone.Controls.Toolkit.dll</HintPath>
@@ -247,6 +304,9 @@
     <Reference Include="vservWindowsPhone">
       <HintPath>packages\mobi.vserv.ads.1.0.11\lib\wp80\vservWindowsPhone.dll</HintPath>
     </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Views\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\$(TargetFrameworkIdentifier)\$(TargetFrameworkVersion)\Microsoft.$(TargetFrameworkIdentifier).$(TargetFrameworkVersion).Overrides.targets" />
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\$(TargetFrameworkIdentifier)\$(TargetFrameworkVersion)\Microsoft.$(TargetFrameworkIdentifier).CSharp.targets" />

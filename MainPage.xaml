@@ -29,9 +29,7 @@
 
     <phone:PhoneApplicationPage.ApplicationBar>
         <shell:ApplicationBar IsVisible="True" IsMenuEnabled="True" Opacity="0.6">
-            <shell:ApplicationBarIconButton IconUri="/Assets/Questionmark.png" Text="about" Click="AboutClicked" />
             <shell:ApplicationBarIconButton IconUri="/Assets/Search.png" Text="search" Click="SearchClicked" />
-            <shell:ApplicationBarIconButton IconUri="/Assets/AppBar/feature.settings.png" Text="settings" Click="SettingsClicked" />
         </shell:ApplicationBar>
     </phone:PhoneApplicationPage.ApplicationBar>
 

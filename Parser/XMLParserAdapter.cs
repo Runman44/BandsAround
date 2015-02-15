@@ -18,6 +18,17 @@ namespace BandsinTown.Parser
     class XMLParserAdapter : IParser
     {
 
+        public async Task<ObservableCollection<ArtistSearch>> getArtistFeed(Uri feed)
+        {
+            var results = await Utils.downloadFeed(feed);
+
+            XmlSerializer serializer = new XmlSerializer(typeof(Artists));
+            StringReader rdr = new StringReader(results);
+            Artists resultingMessage = (Artists)serializer.Deserialize(rdr);
+
+            return resultingMessage.eventCollection;
+        }
+
         public async Task<ObservableCollection<EventSearch>> getEventFeed(Uri feed)
         {
             var results = await Utils.downloadFeed(feed);
@@ -38,7 +49,18 @@ namespace BandsinTown.Parser
             Event resultingMessage = (Event)serializer.Deserialize(rdr);
             rdr.Close();
 
-            //return new Event();
+            return resultingMessage;
+        }
+
+        public async Task<Artist> getArtist(Uri feed)
+        {
+            var results = await Utils.downloadFeed(feed);
+
+            XmlSerializer serializer = new XmlSerializer(typeof(Artist));
+            StringReader rdr = new StringReader(results);
+            Artist resultingMessage = (Artist)serializer.Deserialize(rdr);
+            rdr.Close();
+
             return resultingMessage;
         }
         

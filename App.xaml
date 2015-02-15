@@ -105,6 +105,8 @@
                 </Setter.Value>
             </Setter>
         </Style>
+        <SolidColorBrush x:Key="ButtonDisabledBackgroundThemeBrush" Color="#007A1D1D"/>
+        <SolidColorBrush x:Key="ButtonPressedBackgroundThemeBrush" Color="#007A1D1D"/>
     </Application.Resources>
 
     <Application.ApplicationLifetimeObjects>
