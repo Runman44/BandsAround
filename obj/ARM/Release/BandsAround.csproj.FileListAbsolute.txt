@@ -235,4 +235,7 @@ D:\Documents\Workspaces\Visual Studio Projects\BandsAround\Bin\ARM\Release\Googl
 D:\Documents\Workspaces\Visual Studio Projects\BandsAround\Bin\ARM\Release\GoogleAnalytics.pdb
 D:\Documents\Workspaces\Visual Studio Projects\BandsAround\Bin\ARM\Release\GoogleAnalytics.Core.pdb
 D:\Documents\Workspaces\Visual Studio Projects\BandsAround\obj\ARM\Release\GridPage.g.cs
-D:\Documents\Workspaces\Visual Studio Projects\BandsAround\obj\ARM\Release\WallPage.g.cs
+D:\Documents\Workspaces\Visual Studio Projects\BandsAround\Bin\ARM\Release\Microsoft.Phone.Controls.dll
+D:\Documents\Workspaces\Visual Studio Projects\BandsAround\obj\ARM\Release\ArtistPage.g.cs
+D:\Documents\Workspaces\Visual Studio Projects\BandsAround\obj\ARM\Release\FavoritePage.g.cs
+D:\Documents\Workspaces\Visual Studio Projects\BandsAround\obj\ARM\Release\FollowEventPage.g.cs

@@ -227,7 +227,6 @@ D:\Documents\Workspaces\Visual Studio Projects\BandsAround\obj\ARM\Debug\GridPag
 D:\Documents\Workspaces\Visual Studio Projects\BandsAround\obj\ARM\Debug\MainPage.g.cs
 D:\Documents\Workspaces\Visual Studio Projects\BandsAround\obj\ARM\Debug\SearchEvent.g.cs
 D:\Documents\Workspaces\Visual Studio Projects\BandsAround\obj\ARM\Debug\SettingsPage.g.cs
-D:\Documents\Workspaces\Visual Studio Projects\BandsAround\obj\ARM\Debug\WallPage.g.cs
 D:\Documents\Workspaces\Visual Studio Projects\BandsAround\obj\ARM\Debug\Bands in Town.g.resources
 D:\Documents\Workspaces\Visual Studio Projects\BandsAround\obj\ARM\Debug\BandsinTown.Resources.AppResources.resources
 D:\Documents\Workspaces\Visual Studio Projects\BandsAround\obj\ARM\Debug\BandsAround.csproj.GenerateResource.Cache

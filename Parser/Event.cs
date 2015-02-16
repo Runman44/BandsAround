@@ -89,5 +89,10 @@ namespace BandsinTown.Parser
 
          public Event()
          { }
+
+         public override string ToString()
+         {
+             return startTime.ToShortDateString();
+         }
     }
 }

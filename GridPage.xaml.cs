@@ -15,6 +15,7 @@ namespace BandsinTown
         public GridPage()
         {
             InitializeComponent();
+            GoogleAnalytics.EasyTracker.GetTracker().SendView("GridPage");
         }
 
         private void Events_Click(object sender, RoutedEventArgs e)

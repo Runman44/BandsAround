@@ -42,7 +42,7 @@
                     <DataTemplate>
                         <StackPanel>
                             <TextBlock Style="{StaticResource PhoneTextLargeStyle}" Text="{Binding title}" Margin="2"  TextWrapping="Wrap" />
-                            <TextBlock Style="{StaticResource PhoneTextSmallStyle}" Text="{Binding startTime}" Margin="2" Foreground="#FF15B7C7"  />
+                            <TextBlock Style="{StaticResource PhoneTextSmallStyle}" Text="{Binding}" Margin="2" Foreground="#FF15B7C7"  />
                             <TextBlock Style="{StaticResource PhoneTextSmallStyle}" Text="{Binding cityName}" Margin="2" Foreground="#FF15B7C7"  />
                         </StackPanel>
                     </DataTemplate>

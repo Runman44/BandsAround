@@ -1,54 +1,69 @@
-﻿<xapCache source="C:\Users\denni_000\Desktop\BandsAround\Bin\ARM\Release\BandsinTown_Release_ARM.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="1/14/2015 9:41:56 PM">
-  <file source="C:\Users\denni_000\Desktop\BandsAround\obj\ARM\Release\Bands in Town.dll" archivePath="Bands in Town.dll" lastWriteTime="1/14/2015 9:39:28 PM" />
-  <file source="C:\Users\denni_000\Desktop\BandsAround\358-173.png" archivePath="358-173.png" lastWriteTime="11/30/2014 10:04:17 PM" />
-  <file source="C:\Users\denni_000\Desktop\BandsAround\Assets\AlignmentGrid.png" archivePath="Assets\AlignmentGrid.png" lastWriteTime="8/7/2014 7:15:34 PM" />
-  <file source="C:\Users\denni_000\Desktop\BandsAround\Assets\AppBar\audio.png" archivePath="Assets\AppBar\audio.png" lastWriteTime="11/17/2014 7:19:22 PM" />
-  <file source="C:\Users\denni_000\Desktop\BandsAround\Assets\AppBar\car.png" archivePath="Assets\AppBar\car.png" lastWriteTime="11/17/2014 7:19:21 PM" />
-  <file source="C:\Users\denni_000\Desktop\BandsAround\Assets\AppBar\feature.search.png" archivePath="Assets\AppBar\feature.search.png" lastWriteTime="1/1/2013 5:57:00 PM" />
-  <file source="C:\Users\denni_000\Desktop\BandsAround\Assets\AppBar\feature.settings.png" archivePath="Assets\AppBar\feature.settings.png" lastWriteTime="1/1/2013 5:57:00 PM" />
-  <file source="C:\Users\denni_000\Desktop\BandsAround\Assets\AppBar\globe.png" archivePath="Assets\AppBar\globe.png" lastWriteTime="11/17/2014 7:21:00 PM" />
-  <file source="C:\Users\denni_000\Desktop\BandsAround\Assets\ApplicationIcon.png" archivePath="Assets\ApplicationIcon.png" lastWriteTime="8/7/2014 7:15:34 PM" />
-  <file source="C:\Users\denni_000\Desktop\BandsAround\Assets\Calendar.png" archivePath="Assets\Calendar.png" lastWriteTime="11/9/2014 3:12:58 PM" />
-  <file source="C:\Users\denni_000\Desktop\BandsAround\Assets\Pictures\bus.png" archivePath="Assets\Pictures\bus.png" lastWriteTime="11/12/2014 11:54:52 PM" />
-  <file source="C:\Users\denni_000\Desktop\BandsAround\Assets\Pictures\money.png" archivePath="Assets\Pictures\money.png" lastWriteTime="11/12/2014 11:55:03 PM" />
-  <file source="C:\Users\denni_000\Desktop\BandsAround\Assets\Pictures\time.png" archivePath="Assets\Pictures\time.png" lastWriteTime="11/12/2014 11:59:04 PM" />
-  <file source="C:\Users\denni_000\Desktop\BandsAround\Assets\Share.png" archivePath="Assets\Share.png" lastWriteTime="11/12/2014 11:22:08 PM" />
-  <file source="C:\Users\denni_000\Desktop\BandsAround\Images\back.png" archivePath="Images\back.png" lastWriteTime="11/13/2014 6:52:43 PM" />
-  <file source="C:\Users\denni_000\Desktop\BandsAround\Images\cross.png" archivePath="Images\cross.png" lastWriteTime="11/13/2014 6:52:43 PM" />
-  <file source="C:\Users\denni_000\Desktop\BandsAround\Images\next.png" archivePath="Images\next.png" lastWriteTime="11/13/2014 6:52:43 PM" />
-  <file source="C:\Users\denni_000\Desktop\BandsAround\Images\ref.png" archivePath="Images\ref.png" lastWriteTime="11/13/2014 6:52:43 PM" />
-  <file source="C:\Users\denni_000\Desktop\BandsAround\Images\stop.png" archivePath="Images\stop.png" lastWriteTime="11/13/2014 6:52:43 PM" />
-  <file source="C:\Users\denni_000\Desktop\BandsAround\Toolkit.Content\ApplicationBar.Cancel.png" archivePath="Toolkit.Content\ApplicationBar.Cancel.png" lastWriteTime="4/15/2014 9:13:04 PM" />
-  <file source="C:\Users\denni_000\Desktop\BandsAround\Toolkit.Content\ApplicationBar.Check.png" archivePath="Toolkit.Content\ApplicationBar.Check.png" lastWriteTime="4/15/2014 9:13:04 PM" />
-  <file source="C:\Users\denni_000\Desktop\BandsAround\Assets\Search.png" archivePath="Assets\Search.png" lastWriteTime="11/6/2014 11:22:04 PM" />
-  <file source="C:\Users\denni_000\Desktop\BandsAround\Assets\MusicPageBg.jpg" archivePath="Assets\MusicPageBg.jpg" lastWriteTime="8/7/2014 7:15:34 PM" />
-  <file source="C:\Users\denni_000\Desktop\BandsAround\Assets\Questionmark.png" archivePath="Assets\Questionmark.png" lastWriteTime="8/7/2014 7:15:34 PM" />
-  <file source="C:\Users\denni_000\Desktop\BandsAround\Assets\Tiles\FlipCycleTileLarge.png" archivePath="Assets\Tiles\FlipCycleTileLarge.png" lastWriteTime="8/7/2014 7:15:34 PM" />
-  <file source="C:\Users\denni_000\Desktop\BandsAround\Assets\Tiles\FlipCycleTileMedium.png" archivePath="Assets\Tiles\FlipCycleTileMedium.png" lastWriteTime="8/7/2014 7:15:34 PM" />
-  <file source="C:\Users\denni_000\Desktop\BandsAround\Assets\Tiles\FlipCycleTileSmall.png" archivePath="Assets\Tiles\FlipCycleTileSmall.png" lastWriteTime="8/7/2014 7:15:34 PM" />
-  <file source="C:\Users\denni_000\Desktop\BandsAround\Assets\Tiles\IconicTileMediumLarge.png" archivePath="Assets\Tiles\IconicTileMediumLarge.png" lastWriteTime="8/7/2014 7:15:34 PM" />
-  <file source="C:\Users\denni_000\Desktop\BandsAround\Assets\Tiles\IconicTileSmall.png" archivePath="Assets\Tiles\IconicTileSmall.png" lastWriteTime="8/7/2014 7:15:34 PM" />
-  <file source="C:\Users\denni_000\Desktop\BandsAround\packages\Microsoft.Bcl.Compression.3.9.83\lib\native\ARM\ClrCompression.dll" archivePath="ClrCompression.dll" lastWriteTime="11/4/2014 4:30:15 PM" />
-  <file source="C:\Users\denni_000\Desktop\BandsAround\Bin\ARM\Release\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="1/14/2015 9:23:56 PM" />
-  <file source="C:\Users\denni_000\Desktop\BandsAround\packages\AdDuplexWP8.2.8.1.0\lib\wp8\AdDuplex.WindowsPhone.dll" archivePath="AdDuplex.WindowsPhone.dll" lastWriteTime="1/14/2015 9:18:30 PM" />
-  <file source="C:\Users\denni_000\Desktop\BandsAround\packages\Microsoft.Bcl.Compression.3.9.83\lib\native\ARM\ClrCompression.winmd" archivePath="ClrCompression.winmd" lastWriteTime="11/4/2014 4:30:15 PM" />
-  <file source="C:\Users\denni_000\Desktop\BandsAround\Bin\ARM\Release\GoogleAds.dll" archivePath="GoogleAds.dll" lastWriteTime="6/26/2014 11:06:10 AM" />
-  <file source="C:\Users\denni_000\Desktop\BandsAround\packages\WPtoolkit.4.2013.08.16\lib\wp8\Microsoft.Phone.Controls.Toolkit.dll" archivePath="Microsoft.Phone.Controls.Toolkit.dll" lastWriteTime="11/4/2014 4:22:50 PM" />
-  <file source="C:\Users\denni_000\Desktop\BandsAround\packages\Newtonsoft.Json.6.0.3\lib\portable-net45+wp80+win8+wpa81\Newtonsoft.Json.dll" archivePath="Newtonsoft.Json.dll" lastWriteTime="11/4/2014 4:22:50 PM" />
-  <file source="C:\Users\denni_000\Desktop\BandsAround\packages\NokiaMusic.3.3.0\lib\windowsphone8\Nokia.Music.Wp8.dll" archivePath="Nokia.Music.Wp8.dll" lastWriteTime="11/4/2014 4:22:50 PM" />
-  <file source="C:\Users\denni_000\Desktop\BandsAround\packages\RateMyApp.1.1.0\lib\sl4-wp71\RateMyApp.dll" archivePath="RateMyApp.dll" lastWriteTime="11/21/2014 7:16:57 PM" />
-  <file source="C:\Users\denni_000\Desktop\BandsAround\packages\Microsoft.Bcl.Compression.3.9.83\lib\wp8\System.IO.Compression.dll" archivePath="System.IO.Compression.dll" lastWriteTime="11/4/2014 4:30:15 PM" />
-  <file source="C:\Users\denni_000\Desktop\BandsAround\packages\Microsoft.Net.Http.2.2.22\lib\sl4-windowsphone71\System.Net.Http.dll" archivePath="System.Net.Http.dll" lastWriteTime="11/4/2014 4:30:15 PM" />
-  <file source="C:\Users\denni_000\Desktop\BandsAround\packages\Microsoft.Net.Http.2.2.22\lib\sl4-windowsphone71\System.Net.Http.Extensions.dll" archivePath="System.Net.Http.Extensions.dll" lastWriteTime="11/4/2014 4:30:15 PM" />
-  <file source="C:\Users\denni_000\Desktop\BandsAround\packages\Microsoft.Net.Http.2.2.22\lib\sl4-windowsphone71\System.Net.Http.Primitives.dll" archivePath="System.Net.Http.Primitives.dll" lastWriteTime="11/4/2014 4:30:15 PM" />
-  <file source="C:\Users\denni_000\Desktop\BandsAround\packages\mobi.vserv.ads.1.0.11\lib\wp80\vservWindowsPhone.dll" archivePath="vservWindowsPhone.dll" lastWriteTime="11/13/2014 6:52:42 PM" />
-  <file source="C:\Users\denni_000\Desktop\BandsAround\packages\Newtonsoft.Json.6.0.3\lib\portable-net45+wp80+win8+wpa81\Newtonsoft.Json.xml" archivePath="Newtonsoft.Json.xml" lastWriteTime="11/4/2014 4:22:50 PM" />
-  <file source="C:\Users\denni_000\Desktop\BandsAround\packages\NokiaMusic.3.3.0\lib\windowsphone8\Nokia.Music.Wp8.xml" archivePath="Nokia.Music.Wp8.xml" lastWriteTime="11/4/2014 4:22:50 PM" />
-  <file source="C:\Users\denni_000\Desktop\BandsAround\packages\Microsoft.Bcl.Compression.3.9.83\lib\wp8\System.IO.Compression.xml" archivePath="System.IO.Compression.xml" lastWriteTime="11/4/2014 4:30:15 PM" />
-  <file source="C:\Users\denni_000\Desktop\BandsAround\packages\Microsoft.Net.Http.2.2.22\lib\sl4-windowsphone71\System.Net.Http.xml" archivePath="System.Net.Http.xml" lastWriteTime="11/4/2014 4:30:15 PM" />
-  <file source="C:\Users\denni_000\Desktop\BandsAround\packages\Microsoft.Net.Http.2.2.22\lib\sl4-windowsphone71\System.Net.Http.Extensions.xml" archivePath="System.Net.Http.Extensions.xml" lastWriteTime="11/4/2014 4:30:15 PM" />
-  <file source="C:\Users\denni_000\Desktop\BandsAround\packages\Microsoft.Net.Http.2.2.22\lib\sl4-windowsphone71\System.Net.Http.Primitives.xml" archivePath="System.Net.Http.Primitives.xml" lastWriteTime="11/4/2014 4:30:15 PM" />
-  <file source="C:\Users\denni_000\Desktop\BandsAround\300-300.png" archivePath="300-300.png" lastWriteTime="11/28/2014 8:59:38 PM" />
-  <file source="C:\Users\denni_000\Desktop\BandsAround\358-358.png" archivePath="358-358.png" lastWriteTime="11/30/2014 10:03:11 PM" />
-  <file source="C:\Users\denni_000\Desktop\BandsAround\Bin\ARM\Release\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="1/14/2015 9:41:54 PM" />
+﻿<xapCache source="D:\Documents\Workspaces\Visual Studio Projects\BandsAround\Bin\ARM\Release\BandsinTown_Release_ARM.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="2/15/2015 7:42:06 PM">
+  <file source="D:\Documents\Workspaces\Visual Studio Projects\BandsAround\obj\ARM\Release\Bands in Town.dll" archivePath="Bands in Town.dll" lastWriteTime="2/15/2015 7:41:59 PM" />
+  <file source="D:\Documents\Workspaces\Visual Studio Projects\BandsAround\358-173.png" archivePath="358-173.png" lastWriteTime="11/30/2014 10:04:17 PM" />
+  <file source="D:\Documents\Workspaces\Visual Studio Projects\BandsAround\analytics.xml" archivePath="analytics.xml" lastWriteTime="2/13/2015 4:25:05 PM" />
+  <file source="D:\Documents\Workspaces\Visual Studio Projects\BandsAround\Assets\AlignmentGrid.png" archivePath="Assets\AlignmentGrid.png" lastWriteTime="8/7/2014 7:15:34 PM" />
+  <file source="D:\Documents\Workspaces\Visual Studio Projects\BandsAround\Assets\AppBar\favorite.png" archivePath="Assets\AppBar\favorite.png" lastWriteTime="2/14/2015 7:47:03 PM" />
+  <file source="D:\Documents\Workspaces\Visual Studio Projects\BandsAround\Assets\AppBar\audio.png" archivePath="Assets\AppBar\audio.png" lastWriteTime="11/17/2014 7:19:22 PM" />
+  <file source="D:\Documents\Workspaces\Visual Studio Projects\BandsAround\Assets\AppBar\car.png" archivePath="Assets\AppBar\car.png" lastWriteTime="11/17/2014 7:19:21 PM" />
+  <file source="D:\Documents\Workspaces\Visual Studio Projects\BandsAround\Assets\AppBar\feature.search.png" archivePath="Assets\AppBar\feature.search.png" lastWriteTime="1/1/2013 5:57:00 PM" />
+  <file source="D:\Documents\Workspaces\Visual Studio Projects\BandsAround\Assets\AppBar\feature.settings.png" archivePath="Assets\AppBar\feature.settings.png" lastWriteTime="1/1/2013 5:57:00 PM" />
+  <file source="D:\Documents\Workspaces\Visual Studio Projects\BandsAround\Assets\AppBar\globe.png" archivePath="Assets\AppBar\globe.png" lastWriteTime="11/17/2014 7:21:00 PM" />
+  <file source="D:\Documents\Workspaces\Visual Studio Projects\BandsAround\Assets\ApplicationIcon.png" archivePath="Assets\ApplicationIcon.png" lastWriteTime="8/7/2014 7:15:34 PM" />
+  <file source="D:\Documents\Workspaces\Visual Studio Projects\BandsAround\Assets\Calendar.png" archivePath="Assets\Calendar.png" lastWriteTime="11/9/2014 3:12:58 PM" />
+  <file source="D:\Documents\Workspaces\Visual Studio Projects\BandsAround\Assets\Pictures\bus.png" archivePath="Assets\Pictures\bus.png" lastWriteTime="11/12/2014 11:54:52 PM" />
+  <file source="D:\Documents\Workspaces\Visual Studio Projects\BandsAround\Assets\Pictures\money.png" archivePath="Assets\Pictures\money.png" lastWriteTime="11/12/2014 11:55:03 PM" />
+  <file source="D:\Documents\Workspaces\Visual Studio Projects\BandsAround\Assets\Pictures\time.png" archivePath="Assets\Pictures\time.png" lastWriteTime="11/12/2014 11:59:04 PM" />
+  <file source="D:\Documents\Workspaces\Visual Studio Projects\BandsAround\Assets\Share.png" archivePath="Assets\Share.png" lastWriteTime="11/12/2014 11:22:08 PM" />
+  <file source="D:\Documents\Workspaces\Visual Studio Projects\BandsAround\Images\back.png" archivePath="Images\back.png" lastWriteTime="11/13/2014 6:52:43 PM" />
+  <file source="D:\Documents\Workspaces\Visual Studio Projects\BandsAround\Images\cross.png" archivePath="Images\cross.png" lastWriteTime="11/13/2014 6:52:43 PM" />
+  <file source="D:\Documents\Workspaces\Visual Studio Projects\BandsAround\Images\event.png" archivePath="Images\event.png" lastWriteTime="2/15/2015 4:40:23 PM" />
+  <file source="D:\Documents\Workspaces\Visual Studio Projects\BandsAround\Images\favorite.png" archivePath="Images\favorite.png" lastWriteTime="2/14/2015 9:41:37 PM" />
+  <file source="D:\Documents\Workspaces\Visual Studio Projects\BandsAround\Images\news.png" archivePath="Images\news.png" lastWriteTime="2/14/2015 9:41:37 PM" />
+  <file source="D:\Documents\Workspaces\Visual Studio Projects\BandsAround\Images\next.png" archivePath="Images\next.png" lastWriteTime="11/13/2014 6:52:43 PM" />
+  <file source="D:\Documents\Workspaces\Visual Studio Projects\BandsAround\Images\pushpin.png" archivePath="Images\pushpin.png" lastWriteTime="2/14/2015 1:56:55 PM" />
+  <file source="D:\Documents\Workspaces\Visual Studio Projects\BandsAround\Images\questionmark.png" archivePath="Images\questionmark.png" lastWriteTime="2/14/2015 1:53:54 PM" />
+  <file source="D:\Documents\Workspaces\Visual Studio Projects\BandsAround\Images\ref.png" archivePath="Images\ref.png" lastWriteTime="11/13/2014 6:52:43 PM" />
+  <file source="D:\Documents\Workspaces\Visual Studio Projects\BandsAround\Images\search.png" archivePath="Images\search.png" lastWriteTime="2/14/2015 1:46:28 PM" />
+  <file source="D:\Documents\Workspaces\Visual Studio Projects\BandsAround\Images\settings.png" archivePath="Images\settings.png" lastWriteTime="2/14/2015 1:56:55 PM" />
+  <file source="D:\Documents\Workspaces\Visual Studio Projects\BandsAround\Images\stop.png" archivePath="Images\stop.png" lastWriteTime="11/13/2014 6:52:43 PM" />
+  <file source="D:\Documents\Workspaces\Visual Studio Projects\BandsAround\SplashScreenImage.screen-720p.jpg" archivePath="SplashScreenImage.screen-720p.jpg" lastWriteTime="2/15/2015 7:09:58 PM" />
+  <file source="D:\Documents\Workspaces\Visual Studio Projects\BandsAround\SplashScreenImage.screen-WVGA.jpg" archivePath="SplashScreenImage.screen-WVGA.jpg" lastWriteTime="2/15/2015 7:09:58 PM" />
+  <file source="D:\Documents\Workspaces\Visual Studio Projects\BandsAround\SplashScreenImage.screen-WXGA.jpg" archivePath="SplashScreenImage.screen-WXGA.jpg" lastWriteTime="2/15/2015 7:09:58 PM" />
+  <file source="D:\Documents\Workspaces\Visual Studio Projects\BandsAround\Toolkit.Content\ApplicationBar.Cancel.png" archivePath="Toolkit.Content\ApplicationBar.Cancel.png" lastWriteTime="4/15/2014 9:13:04 PM" />
+  <file source="D:\Documents\Workspaces\Visual Studio Projects\BandsAround\Toolkit.Content\ApplicationBar.Check.png" archivePath="Toolkit.Content\ApplicationBar.Check.png" lastWriteTime="4/15/2014 9:13:04 PM" />
+  <file source="D:\Documents\Workspaces\Visual Studio Projects\BandsAround\Assets\Search.png" archivePath="Assets\Search.png" lastWriteTime="11/6/2014 11:22:04 PM" />
+  <file source="D:\Documents\Workspaces\Visual Studio Projects\BandsAround\Assets\MusicPageBg.jpg" archivePath="Assets\MusicPageBg.jpg" lastWriteTime="8/7/2014 7:15:34 PM" />
+  <file source="D:\Documents\Workspaces\Visual Studio Projects\BandsAround\Assets\Questionmark.png" archivePath="Assets\Questionmark.png" lastWriteTime="8/7/2014 7:15:34 PM" />
+  <file source="D:\Documents\Workspaces\Visual Studio Projects\BandsAround\Assets\Tiles\FlipCycleTileLarge.png" archivePath="Assets\Tiles\FlipCycleTileLarge.png" lastWriteTime="8/7/2014 7:15:34 PM" />
+  <file source="D:\Documents\Workspaces\Visual Studio Projects\BandsAround\Assets\Tiles\FlipCycleTileMedium.png" archivePath="Assets\Tiles\FlipCycleTileMedium.png" lastWriteTime="8/7/2014 7:15:34 PM" />
+  <file source="D:\Documents\Workspaces\Visual Studio Projects\BandsAround\Assets\Tiles\FlipCycleTileSmall.png" archivePath="Assets\Tiles\FlipCycleTileSmall.png" lastWriteTime="8/7/2014 7:15:34 PM" />
+  <file source="D:\Documents\Workspaces\Visual Studio Projects\BandsAround\Assets\Tiles\IconicTileMediumLarge.png" archivePath="Assets\Tiles\IconicTileMediumLarge.png" lastWriteTime="8/7/2014 7:15:34 PM" />
+  <file source="D:\Documents\Workspaces\Visual Studio Projects\BandsAround\Assets\Tiles\IconicTileSmall.png" archivePath="Assets\Tiles\IconicTileSmall.png" lastWriteTime="8/7/2014 7:15:34 PM" />
+  <file source="D:\Documents\Workspaces\Visual Studio Projects\BandsAround\packages\Microsoft.Bcl.Compression.3.9.83\lib\native\ARM\ClrCompression.dll" archivePath="ClrCompression.dll" lastWriteTime="11/4/2014 4:30:15 PM" />
+  <file source="D:\Documents\Workspaces\Visual Studio Projects\BandsAround\Bin\ARM\Release\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="2/15/2015 7:42:02 PM" />
+  <file source="D:\Documents\Workspaces\Visual Studio Projects\BandsAround\packages\AdDuplexWP8.2.8.1.0\lib\wp8\AdDuplex.WindowsPhone.dll" archivePath="AdDuplex.WindowsPhone.dll" lastWriteTime="1/14/2015 9:18:30 PM" />
+  <file source="D:\Documents\Workspaces\Visual Studio Projects\BandsAround\packages\Microsoft.Bcl.Compression.3.9.83\lib\native\ARM\ClrCompression.winmd" archivePath="ClrCompression.winmd" lastWriteTime="11/4/2014 4:30:15 PM" />
+  <file source="D:\Documents\Workspaces\Visual Studio Projects\BandsAround\Bin\ARM\Release\GoogleAds.dll" archivePath="GoogleAds.dll" lastWriteTime="6/26/2014 11:06:10 AM" />
+  <file source="D:\Documents\Workspaces\Visual Studio Projects\BandsAround\packages\GoogleAnalyticsSDK.1.2.12\lib\windowsphone8\GoogleAnalytics.Core.dll" archivePath="GoogleAnalytics.Core.dll" lastWriteTime="2/13/2015 4:23:11 PM" />
+  <file source="D:\Documents\Workspaces\Visual Studio Projects\BandsAround\packages\GoogleAnalyticsSDK.1.2.12\lib\windowsphone8\GoogleAnalytics.dll" archivePath="GoogleAnalytics.dll" lastWriteTime="2/13/2015 4:23:11 PM" />
+  <file source="C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v8.0\Libraries\Microsoft.Phone.Controls.dll" archivePath="Microsoft.Phone.Controls.dll" lastWriteTime="1/1/2013 5:57:00 PM" />
+  <file source="D:\Documents\Workspaces\Visual Studio Projects\BandsAround\packages\WPtoolkit.4.2013.08.16\lib\wp8\Microsoft.Phone.Controls.Toolkit.dll" archivePath="Microsoft.Phone.Controls.Toolkit.dll" lastWriteTime="11/4/2014 4:22:50 PM" />
+  <file source="D:\Documents\Workspaces\Visual Studio Projects\BandsAround\packages\Newtonsoft.Json.6.0.3\lib\portable-net45+wp80+win8+wpa81\Newtonsoft.Json.dll" archivePath="Newtonsoft.Json.dll" lastWriteTime="11/4/2014 4:22:50 PM" />
+  <file source="D:\Documents\Workspaces\Visual Studio Projects\BandsAround\packages\NokiaMusic.3.3.0\lib\windowsphone8\Nokia.Music.Wp8.dll" archivePath="Nokia.Music.Wp8.dll" lastWriteTime="11/4/2014 4:22:50 PM" />
+  <file source="D:\Documents\Workspaces\Visual Studio Projects\BandsAround\packages\RateMyApp.1.1.0\lib\sl4-wp71\RateMyApp.dll" archivePath="RateMyApp.dll" lastWriteTime="11/21/2014 7:16:57 PM" />
+  <file source="D:\Documents\Workspaces\Visual Studio Projects\BandsAround\packages\Microsoft.Bcl.Compression.3.9.83\lib\wp8\System.IO.Compression.dll" archivePath="System.IO.Compression.dll" lastWriteTime="11/4/2014 4:30:15 PM" />
+  <file source="D:\Documents\Workspaces\Visual Studio Projects\BandsAround\packages\Microsoft.Net.Http.2.2.22\lib\sl4-windowsphone71\System.Net.Http.dll" archivePath="System.Net.Http.dll" lastWriteTime="11/4/2014 4:30:15 PM" />
+  <file source="D:\Documents\Workspaces\Visual Studio Projects\BandsAround\packages\Microsoft.Net.Http.2.2.22\lib\sl4-windowsphone71\System.Net.Http.Extensions.dll" archivePath="System.Net.Http.Extensions.dll" lastWriteTime="11/4/2014 4:30:15 PM" />
+  <file source="D:\Documents\Workspaces\Visual Studio Projects\BandsAround\packages\Microsoft.Net.Http.2.2.22\lib\sl4-windowsphone71\System.Net.Http.Primitives.dll" archivePath="System.Net.Http.Primitives.dll" lastWriteTime="11/4/2014 4:30:15 PM" />
+  <file source="D:\Documents\Workspaces\Visual Studio Projects\BandsAround\packages\mobi.vserv.ads.1.0.11\lib\wp80\vservWindowsPhone.dll" archivePath="vservWindowsPhone.dll" lastWriteTime="11/13/2014 6:52:42 PM" />
+  <file source="D:\Documents\Workspaces\Visual Studio Projects\BandsAround\packages\Newtonsoft.Json.6.0.3\lib\portable-net45+wp80+win8+wpa81\Newtonsoft.Json.xml" archivePath="Newtonsoft.Json.xml" lastWriteTime="11/4/2014 4:22:50 PM" />
+  <file source="D:\Documents\Workspaces\Visual Studio Projects\BandsAround\packages\NokiaMusic.3.3.0\lib\windowsphone8\Nokia.Music.Wp8.xml" archivePath="Nokia.Music.Wp8.xml" lastWriteTime="11/4/2014 4:22:50 PM" />
+  <file source="D:\Documents\Workspaces\Visual Studio Projects\BandsAround\packages\Microsoft.Bcl.Compression.3.9.83\lib\wp8\System.IO.Compression.xml" archivePath="System.IO.Compression.xml" lastWriteTime="11/4/2014 4:30:15 PM" />
+  <file source="D:\Documents\Workspaces\Visual Studio Projects\BandsAround\packages\Microsoft.Net.Http.2.2.22\lib\sl4-windowsphone71\System.Net.Http.xml" archivePath="System.Net.Http.xml" lastWriteTime="11/4/2014 4:30:15 PM" />
+  <file source="D:\Documents\Workspaces\Visual Studio Projects\BandsAround\packages\Microsoft.Net.Http.2.2.22\lib\sl4-windowsphone71\System.Net.Http.Extensions.xml" archivePath="System.Net.Http.Extensions.xml" lastWriteTime="11/4/2014 4:30:15 PM" />
+  <file source="D:\Documents\Workspaces\Visual Studio Projects\BandsAround\packages\Microsoft.Net.Http.2.2.22\lib\sl4-windowsphone71\System.Net.Http.Primitives.xml" archivePath="System.Net.Http.Primitives.xml" lastWriteTime="11/4/2014 4:30:15 PM" />
+  <file source="D:\Documents\Workspaces\Visual Studio Projects\BandsAround\300-300.png" archivePath="300-300.png" lastWriteTime="11/28/2014 8:59:38 PM" />
+  <file source="D:\Documents\Workspaces\Visual Studio Projects\BandsAround\358-358.png" archivePath="358-358.png" lastWriteTime="11/30/2014 10:03:11 PM" />
+  <file source="D:\Documents\Workspaces\Visual Studio Projects\BandsAround\Bin\ARM\Release\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="2/15/2015 7:42:04 PM" />
 </xapCache>

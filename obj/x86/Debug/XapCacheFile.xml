@@ -1,5 +1,5 @@
-﻿<xapCache source="D:\Documents\Workspaces\Visual Studio Projects\BandsAround\Bin\x86\Debug\BandsinTown_Release_ARM.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="2/15/2015 6:52:45 PM">
-  <file source="D:\Documents\Workspaces\Visual Studio Projects\BandsAround\obj\x86\Debug\Bands in Town.dll" archivePath="Bands in Town.dll" lastWriteTime="2/15/2015 6:52:39 PM" />
+﻿<xapCache source="D:\Documents\Workspaces\Visual Studio Projects\BandsAround\Bin\x86\Debug\BandsinTown_Release_ARM.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="2/15/2015 11:25:28 PM">
+  <file source="D:\Documents\Workspaces\Visual Studio Projects\BandsAround\obj\x86\Debug\Bands in Town.dll" archivePath="Bands in Town.dll" lastWriteTime="2/15/2015 11:25:23 PM" />
   <file source="D:\Documents\Workspaces\Visual Studio Projects\BandsAround\358-173.png" archivePath="358-173.png" lastWriteTime="11/30/2014 10:04:17 PM" />
   <file source="D:\Documents\Workspaces\Visual Studio Projects\BandsAround\analytics.xml" archivePath="analytics.xml" lastWriteTime="2/13/2015 4:25:05 PM" />
   <file source="D:\Documents\Workspaces\Visual Studio Projects\BandsAround\Assets\AlignmentGrid.png" archivePath="Assets\AlignmentGrid.png" lastWriteTime="8/7/2014 7:15:34 PM" />
@@ -27,6 +27,7 @@
   <file source="D:\Documents\Workspaces\Visual Studio Projects\BandsAround\Images\search.png" archivePath="Images\search.png" lastWriteTime="2/14/2015 1:46:28 PM" />
   <file source="D:\Documents\Workspaces\Visual Studio Projects\BandsAround\Images\settings.png" archivePath="Images\settings.png" lastWriteTime="2/14/2015 1:56:55 PM" />
   <file source="D:\Documents\Workspaces\Visual Studio Projects\BandsAround\Images\stop.png" archivePath="Images\stop.png" lastWriteTime="11/13/2014 6:52:43 PM" />
+  <file source="D:\Documents\Workspaces\Visual Studio Projects\BandsAround\SplashScreenImage.jpg" archivePath="SplashScreenImage.jpg" lastWriteTime="2/15/2015 10:23:11 PM" />
   <file source="D:\Documents\Workspaces\Visual Studio Projects\BandsAround\Toolkit.Content\ApplicationBar.Cancel.png" archivePath="Toolkit.Content\ApplicationBar.Cancel.png" lastWriteTime="4/15/2014 9:13:04 PM" />
   <file source="D:\Documents\Workspaces\Visual Studio Projects\BandsAround\Toolkit.Content\ApplicationBar.Check.png" archivePath="Toolkit.Content\ApplicationBar.Check.png" lastWriteTime="4/15/2014 9:13:04 PM" />
   <file source="D:\Documents\Workspaces\Visual Studio Projects\BandsAround\Assets\Search.png" archivePath="Assets\Search.png" lastWriteTime="11/6/2014 11:22:04 PM" />
@@ -62,5 +63,5 @@
   <file source="D:\Documents\Workspaces\Visual Studio Projects\BandsAround\packages\Microsoft.Net.Http.2.2.22\lib\sl4-windowsphone71\System.Net.Http.Primitives.xml" archivePath="System.Net.Http.Primitives.xml" lastWriteTime="11/4/2014 4:30:15 PM" />
   <file source="D:\Documents\Workspaces\Visual Studio Projects\BandsAround\300-300.png" archivePath="300-300.png" lastWriteTime="11/28/2014 8:59:38 PM" />
   <file source="D:\Documents\Workspaces\Visual Studio Projects\BandsAround\358-358.png" archivePath="358-358.png" lastWriteTime="11/30/2014 10:03:11 PM" />
-  <file source="D:\Documents\Workspaces\Visual Studio Projects\BandsAround\Bin\x86\Debug\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="2/14/2015 2:10:08 PM" />
+  <file source="D:\Documents\Workspaces\Visual Studio Projects\BandsAround\Bin\x86\Debug\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="2/15/2015 7:10:17 PM" />
 </xapCache>

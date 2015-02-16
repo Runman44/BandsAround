@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Deployment xmlns="http://schemas.microsoft.com/windowsphone/2012/deployment" AppPlatformVersion="8.0">
   <DefaultLanguage xmlns="" code="en-US" />
-  <App xmlns="" ProductID="{893120bf-a176-4510-aead-3574304ad240}" Title="Bands Around" RuntimeType="Silverlight" Version="3.3.0.0" Genre="apps.normal" Author="Dennis Anderson" Description="Bands Around is a location based event searcher. It's mainly task is to search music events near your location and give you extra information about this event. " Publisher="Mr.Anderson" PublisherID="{bef2f4d7-4eab-48d8-93c6-942d22c898da}">
+  <App xmlns="" ProductID="{893120bf-a176-4510-aead-3574304ad240}" Title="Bands Around" RuntimeType="Silverlight" Version="4.0.0.0" Genre="apps.normal" Author="Dennis Anderson" Description="Bands Around is a location based event searcher. It's mainly task is to search music events near your location and give you extra information about this event. " Publisher="Mr.Anderson" PublisherID="{bef2f4d7-4eab-48d8-93c6-942d22c898da}">
     <IconPath IsRelative="true" IsResource="false">300-300.png</IconPath>
     <Capabilities>
       <Capability Name="ID_CAP_NETWORKING" />

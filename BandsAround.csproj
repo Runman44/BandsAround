@@ -142,9 +142,6 @@
     </Compile>
     <Compile Include="ThemeManager.cs" />
     <Compile Include="Utils.cs" />
-    <Compile Include="WallPage.xaml.cs">
-      <DependentUpon>WallPage.xaml</DependentUpon>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">
@@ -183,10 +180,6 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="SettingsPage.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="WallPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -234,6 +227,7 @@
     <Content Include="Images\search.png" />
     <Content Include="Images\settings.png" />
     <Content Include="Images\stop.png" />
+    <Content Include="SplashScreenImage.jpg" />
     <Content Include="Toolkit.Content\ApplicationBar.Cancel.png" />
     <Content Include="Toolkit.Content\ApplicationBar.Check.png" />
     <Resource Include="Assets\Eventful.gif" />

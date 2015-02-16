@@ -17,6 +17,7 @@ namespace BandsinTown
         public FavoritePage()
         {
             InitializeComponent();
+            GoogleAnalytics.EasyTracker.GetTracker().SendView("FavoritePage");
             ObservableCollection<Artist> favoriteList = Settings.GetValueOrDefault<ObservableCollection<Artist>>("favorites", null);
             favoriteArtists.DataContext = favoriteList;
         }

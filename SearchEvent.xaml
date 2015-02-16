@@ -92,7 +92,7 @@
                             </DataTemplate>
                         </ListBox.ItemTemplate>
                     </ListBox>
-
+                    <adduplex:AdControl  Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="4" x:Name="adDuplexAd2" AppId="137295" IsTest="False" Margin="-27,11,-24,10"/>
                 </Grid>
             </phone:PivotItem>
         </phone:Pivot>

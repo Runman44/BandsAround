@@ -17,6 +17,7 @@ namespace BandsinTown
         public FollowEventPage()
         {
             InitializeComponent();
+            GoogleAnalytics.EasyTracker.GetTracker().SendView("FollowPage");
             ObservableCollection<Event> followList = Settings.GetValueOrDefault<ObservableCollection<Event>>("follow", null);
             followEvents.DataContext = followList;
         }

@@ -88,6 +88,8 @@ namespace BandsinTown
             // Remove HTML tags. 
             rssFeed = Regex.Replace(rssFeed, "<[^>]+>", string.Empty);
 
+            rssFeed.Replace("&quot;", "'");
+
             return rssFeed;
         }
 

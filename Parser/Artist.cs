@@ -4,6 +4,7 @@ using System.Collections.ObjectModel;
 using System.Globalization;
 using System.Linq;
 using System.Text;
+using System.Windows.Media.Imaging;
 using System.Xml.Serialization;
 
 namespace BandsinTown.Parser
@@ -55,6 +56,12 @@ namespace BandsinTown.Parser
         
          public Artist()
          { }
+
+
+         public BitmapImage imageList()
+         {
+             return new BitmapImage(new Uri(images[0].url));
+         }
     }
 
     [XmlRoot("medium")]
